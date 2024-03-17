@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display—swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+:root {
+    --bg-color: #151716;
+    --secondary-bg-color: #1e1e1e;
+    --text-color: #fff;
+    --main-color: #37fd12;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #151716;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-height: auto;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+}
+
+form .heading {
+    color: var(--main-color);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+form .table {
+    display: table;
+    border-spacing: 20px;
+}
+
+form .input-box {
+    display: table-row;;
+    font-size: 20px;
+}
+
+.input-box label {
+    width: 20%;
+    display: table-cell;
+    font-weight: 500;
+    color: #37fd12;
+}
+
+.input-box p {
+    margin-top: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.input-box p input {
+    margin: 0 5px;
+    width: auto;
+    height: 10px;
+}
+
+.input-box input {
+    display: table-cell;
+    width: 95%;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+    color: var(--bg-color);
+}
+
+.input-box input[type="submit"] {
+    background-color: #151716;
+    color: #37fd12;
+    font-size: 16px;
+    font-weight: 500;
+    /* border: 1px var(--main-color) solid; */
+}
+
+.input-box input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+form p {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+form p a {
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    /* margin: 10px ; */
+    /* padding: 10px; */
+    /* background-color: var(--bg-color); */
+    color: var(--main-color);
+    /* border: 0.5px var(--main-color) solid; */
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
